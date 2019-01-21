@@ -98,7 +98,7 @@ A full end-to-end sample is available in the Streaming at Scale repository:
 [Avro Tools][Avro Tools] are available as a jar package. After you download the jar file, you can see the schema of a specific Avro file by running the following command:
 
 ```shell
-java -jar avro-tools-1.8.2.jar getschema <name of capture file>
+java -jar avro-tools-1.8.2.jar tojson '<name of capture file>.avro' > test.json
 ```
 
 This command returns
